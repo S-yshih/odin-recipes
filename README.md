@@ -1,1 +1,3 @@
 # odin-recipes
+Project currently uses only HTML to create a basic recipe website. The index.html page will contain links to a few recipes.
+The recipes will be in html files within a "recipes" directory. Each recipe will include a heading with the name, an image, and a description of the recipe. The ingredients will be listed in an unordered list and the cooking steps will be listed in an orered list.
