@@ -1,27 +1,24 @@
 * {
     font-family: 'Segoe UI', Verdana, sans-serif;
-    
+    border:0;
+    margin:0;
 }
-
-body { 
+body {
     background-color: #fbeee6;
-}
-
-h1, h3 {
-    background-color: #ffffff;
 }
 
 h1 {
     color: #6E2c00;
+    background-color: #fffbf8;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
     padding: 30px;
+    
 }
 
 h3 {
     font-size: 20px;
-    text-align: left;
 }
 
 h4 {
@@ -29,10 +26,26 @@ h4 {
 }
 
 img {
-    height: 200px;
-    width: auto;
+    display: block;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 175px solid #fffbf8;
+    border-top: 30px solid #fffbf8;
+    border-bottom: 30px solid #fffbf8;
 }
 
 ul, ol, li, p {
     font-family: 'Times New Roman', Times, serif;
+
 }
+
+.section {
+    width: 750px;
+    margin: auto;
+    background-color: #fffbf8;
+    border: 2px;
+}
+
